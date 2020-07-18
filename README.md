@@ -30,19 +30,25 @@ issue #17][vcam#17].
 
 ## Build
 
-- Install QT
+### Install dependencies
 
+- Debian
 ```
 sudo apt install qtbase5-dev
 ```
 
-- Get obs-studio source code
+- Fedora
+```
+sudo dnf install qt5-qtbase-devel obs-studio-devel
+```
+
+### Get obs-studio source code
 
 ```
 git clone --recursive https://github.com/obsproject/obs-studio.git
 ```
 
-- Build plugins
+### Build plugins
 
 ```
 git clone https://github.com/CatxFish/obs-v4l2sink.git
